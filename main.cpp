@@ -4,27 +4,27 @@
 using namespace std;
 
 int main(){
-int hr, min, sec;
+int h, m, s;
 
 cout<<"What is the hour of the day there?:"<<endl;
-cin>>hr;
+cin>>h;
 cout<<"What are the minutes?:"<<endl;
-cin>>min;
+cin>>m;
 cout<<"What are the seconds running?:"<<endl;
-cin>>sec;
+cin>>s;
 while (true){
 
-  cout<<"\t"<<hr<<" : "<<min<<" : "<< sec<<endl;
+  cout<<"\t"<<h<<" : "<<m<<" : "<< s<<endl;
   cout<< string(15, '\n');
-  sec++;
-  if (sec==60){
-    min++;
-    sec=0;
-    if (min==60){
-      hr++;
-      min=0;
-      if (hr==13){
-        hr=1;
+  s++;
+  if (s==60){
+    m++;
+    s=0;
+    if (m==60){
+      h++;
+      m=0;
+      if (h==13){
+        h=1;
       }
     }
   }
