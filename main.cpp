@@ -6,11 +6,11 @@ using namespace std;
 int main(){
 int h, m, s;
 
-cout<<"What is the hour of the day there?:"<<endl;
+cout<<"What is the hour of the day there?"<<endl;
 cin>>h;
-cout<<"What are the minutes?:"<<endl;
+cout<<"What are the minutes?"<<endl;
 cin>>m;
-cout<<"What are the seconds running?:"<<endl;
+cout<<"What are the seconds running?"<<endl;
 cin>>s;
 while (true){
 
